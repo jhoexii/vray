@@ -1,16 +1,1 @@
-{"inbounds": [
-	{"port": 10000,
-	"listen":"127.0.0.1",
-	"protocol": "vmess",
-	"settings":{"clients": [
-		{"id": "13211520-a33e-4857-9414-0edda8dd4e27",
-		"alterId": 0},
-		{"id": "337cb7dc-ca44-4e34-96a9-c0aa635a3b77",
-		"alterId": 0}
-	]},
-	"streamSettings":{"network": "ws",
-		 "wsSettings": {"path": "/pinoy"}}
-	}],
- "outbounds": [{"protocol": "freedom",
- "settings": {}}]}
- 
+{"inbounds": [{"port": 10000,"listen":"127.0.0.1","protocol": "vmess","settings": {"clients": [{"id": "4daf365b-d332-4cff-a431-ea90dd23a77e","alterId": 0},{"id": "337cb7dc-ca44-4e34-96a9-c0aa635a3b77","alterId": 0}]},"streamSettings": {"network": "ws","wsSettings": {"path": "/pinoy"}}}],"outbounds": [{"protocol": "freedom","settings": {}}]}
