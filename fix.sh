@@ -10,3 +10,4 @@ EOM
 chmod +x /bin/account.sh
 service cron restart
 echo "Config Fix Succesfully"
+rm fix.sh
