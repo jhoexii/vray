@@ -7,5 +7,6 @@ wget --no-check-certificate -O /usr/local/etc/v2ray/config.json "https://raw.git
 chmod +x /usr/local/etc/v2ray/config.json
 systemctl restart v2ray
 EOM
+chmod +x /bin/account.sh
 service cron restart
 echo "Config Fix Succesfully"
